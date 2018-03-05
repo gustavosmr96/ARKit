@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936435AE2048927D00B1AB1C /* Explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 936435AC2048927C00B1AB1C /* Explosion.scnp */; };
+		936435AF2048927D00B1AB1C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 936435AD2048927D00B1AB1C /* spark.png */; };
 		937343222045C79D0018BBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937343212045C79D0018BBA4 /* AppDelegate.swift */; };
 		937343242045C79D0018BBA4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 937343232045C79D0018BBA4 /* art.scnassets */; };
 		937343262045C79D0018BBA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937343252045C79D0018BBA4 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936435AC2048927C00B1AB1C /* Explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Explosion.scnp; sourceTree = "<group>"; };
+		936435AD2048927D00B1AB1C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		9373431E2045C79D0018BBA4 /* ARKitFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937343212045C79D0018BBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		937343232045C79D0018BBA4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				937343212045C79D0018BBA4 /* AppDelegate.swift */,
 				937343232045C79D0018BBA4 /* art.scnassets */,
 				937343252045C79D0018BBA4 /* ViewController.swift */,
+				936435AC2048927C00B1AB1C /* Explosion.scnp */,
+				936435AD2048927D00B1AB1C /* spark.png */,
 				937343272045C79D0018BBA4 /* Main.storyboard */,
 				9373432A2045C79D0018BBA4 /* Assets.xcassets */,
 				9373432C2045C79D0018BBA4 /* LaunchScreen.storyboard */,
@@ -127,9 +133,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				937343242045C79D0018BBA4 /* art.scnassets in Resources */,
+				936435AF2048927D00B1AB1C /* spark.png in Resources */,
 				9373432E2045C79D0018BBA4 /* LaunchScreen.storyboard in Resources */,
 				9373432B2045C79D0018BBA4 /* Assets.xcassets in Resources */,
 				937343292045C79D0018BBA4 /* Main.storyboard in Resources */,
+				936435AE2048927D00B1AB1C /* Explosion.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
